@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Immersive Worldgen</name>
+	<packageId>piri.immersive.worldgen</packageId>
+	<author>PIRI</author>
+	<description>
+Currently only touches faction generation to make settlements feel more immersive.
+- Enforce a minimum distance between faction bases(9 tiles = 8 tiles in between).
+- Consider temperature preferences when placing settlements.
+- Consider rainfall when placing settlements(unfortunately rainfall threshold is currently hardcoded).
+	</description>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+</ModMetaData>

@@ -1,0 +1,11 @@
+#!/bin/sh
+export DOTNET_CLI_TELEMETRY_OPTOUT=true
+export FrameworkPathOverride=/usr/lib/mono/4.7.2-api/
+
+RF="reference"
+
+# The .dll reference files should be acquired from Rimworld's Managed folder/respective mods' Assemblies folders and placed in the 'reference' directory.
+
+# https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/
+
+csc /reference:$RF/mscorlib.dll /reference:$RF/System.dll /reference:$RF/Assembly-CSharp.dll /reference:$RF/0Harmony.dll /deterministic /optimize /target:library /out:../1.4/Assemblies/ImmersiveWorldgen.dll ImmersiveWorldgen.cs
