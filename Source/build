@@ -8,4 +8,4 @@ RF="reference"
 
 # https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/
 
-csc /reference:$RF/mscorlib.dll /reference:$RF/System.dll /reference:$RF/Assembly-CSharp.dll /reference:$RF/0Harmony.dll /deterministic /optimize /target:library /out:../1.4/Assemblies/ImmersiveWorldgen.dll ImmersiveWorldgen.cs
+csc /reference:$RF/mscorlib.dll /reference:$RF/System.dll /reference:$RF/Assembly-CSharp.dll /reference:$RF/0Harmony.dll /deterministic /optimize /target:library /out:../1.5/Assemblies/ImmersiveWorldgen.dll ImmersiveWorldgen.cs

@@ -6,12 +6,13 @@
 	<author>PIRI</author>
 	<description>
 Currently only touches faction generation to make settlements feel more immersive.
-- Enforce a minimum distance between faction bases(9 tiles = 8 tiles in between).
+- Enforce a minimum distance between faction bases (9 tiles = 8 tiles in between).
 - Consider temperature preferences when placing settlements.
-- Consider rainfall when placing settlements(unfortunately rainfall threshold is currently hardcoded).
+- Consider rainfall when placing settlements (unfortunately rainfall threshold is currently hardcoded).
 	</description>
 	<supportedVersions>
 		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<loadAfter>
 		<li>brrainz.harmony</li>
